@@ -43,12 +43,12 @@ const App = () => {
     <Routes>
       <Route
         exact
-        path="/"
+        path='/'
         element={<PokemonList pokemonList={pokemonList} />}
       />
       <Route
         exact
-        path="/pokemon/:name"
+        path='/pokemon/:name'
         element={
           <PokemonPage
             pokemonList={pokemonList}
