@@ -30,6 +30,6 @@ module.exports = {
     "arrow-spacing": ["error", { before: true, after: true }],
     "no-console": "off",
     "react/prop-types": 0,
-    "jsx-quotes": ["prefer-single"],
+    "jsx-quotes": [2, "prefer-single"],
   },
 };
