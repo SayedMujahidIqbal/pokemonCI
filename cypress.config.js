@@ -7,8 +7,5 @@ module.exports = defineConfig({
       return config
     },
     baseUrl: 'http://localhost:8080',
-    env: {
-      BACKEND: 'http://localhost:5000',
-    },
   },
 })
